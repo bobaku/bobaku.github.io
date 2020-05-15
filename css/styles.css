@@ -11,9 +11,7 @@
 .nav-margin {
     margin: 7.5px 15px !important;
 }
-.navbar-nav ul{
 
-}
 
 .box-1 {
     padding: 50px;
@@ -41,4 +39,62 @@
 .bg-transparent li a:hover{
     color: black !important;
     background-color: rgba(255,255,255,0.3) !important;
+}
+.dr {
+}
+
+.glyphicon {
+    top: 0;
+}
+.drs:hover + .nav-list{
+    display: block !important;
+}
+.dropdown-menu{
+    display: block;
+    position: relative;
+    text-align: center;
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+.dr-toggle {
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+
+    .dr {
+        text-align: center;
+        position: absolute;
+        width: 100vw;
+        top: 0;
+        padding: 20px 40px;
+        text-align: right;
+    }
+    .dropdown-menu{
+        display: none;
+        position: absolute;
+        right: 0 !important;
+        width: 100vw !important;
+        text-align: center;
+        background: rgba(0,0,0,0.7);
+        filter: shadow(20px);
+        z-index: 100;
+        backdrop-filter: blur(200px) !important;
+
+    }
+    .dr-toggle {
+        display: block;
+    }
+    .dropdown-menu li{
+        background: none;
+        backdrop-filter: blur(8px) !important;
+    }
+
+    .navbar-header{
+        width: 80%;
+        float: left;
+    }
+
+
 }
