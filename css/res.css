@@ -1,0 +1,82 @@
+body {
+    font: 18px/1.5 'Source Sans Pro', sans-serif;
+}
+
+/*Atur Warna, Font, Besar kecil font disini*/
+
+.bg-white{
+    background-color: white !important;
+}
+.bg-black{
+    background-color: black !important;
+}
+.bg-1 {
+
+}
+.bg-2 {
+
+}
+.bg-3 {
+
+}
+.bg-4 {
+
+}
+.bg-5 {
+
+}
+.color-white {
+    color: white !important;
+}
+.color-black {
+    color: black !important;
+}
+.color-1 {
+
+}
+.color-2 {
+
+}
+.color-3 {
+
+}
+.color-4 {
+
+}
+.color-5 {
+
+}
+.drop-shadow-nav {
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+
+}
+.drop-shadow-nav:not(hover) {
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+    transition: 0.5s;
+}
+.drop-shadow-nav:hover {
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    transition: 0.5s;
+}
+.glass-white {
+    background-color: rgba(255,255,255,0.2) !important;
+    filter: blur(2px) !important;
+}
+
+/*Background Images*/
+.bg-image-home {
+    background-image: url("../assets/img/background_home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+.image-boba {
+    background-image: url("../assets/img/boba.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-overlay {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,0.6) 0%, rgba(71,71,71,0.6) 100%, rgba(128,132,133,0.6) 100%);
+}
