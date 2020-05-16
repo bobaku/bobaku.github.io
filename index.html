@@ -36,10 +36,11 @@
     </script>
 </head>
 <body>
+
 <div id="scroller" data-toggle="tooltip" data-placement="top" title="Go To Top" class="box-hover-shadow-10 box-shadow-5 bg-white border-radius-10" onclick="scrollToTop();return false;">
     <span class="glyphicon glyphicon-arrow-up" ></span>
 </div>
-<div class="padding-768-0 bg-image-home-1 bg-image bg-cover device-height device-width vertical-center-parent">
+<div id="home-1" class="padding-768-0 bg-image-home-1 bg-image bg-cover device-height device-width vertical-center-parent">
     <div class=" container padding-lg line-16">
         <div class="col-sm-1"></div>
         <div class="width-768-full padding-lg col-sm-10 box-hover-shadow-20 transition-5 bg-black-90 padding-xl vertical-center">
@@ -128,7 +129,7 @@
             Today's Selection
         </p>
         <div class="padding-lg margin-auto width-max-size-500 height-full">
-            <div class="transition-5 transformY-5-hover box-hover-shadow-20 bg-white margin-sm padding-xl border-black-30-1">
+            <div class="transition-5 transformY-5-hover box-hover-shadow-5 bg-white margin-sm padding-xl border-black-30-1">
                 <div class="bg-contain image-boba-menu-1 image-boba"></div>
                 <p class="fz-20 text-center fw-bold line-20 margin-md">
                     Menu Name
@@ -136,10 +137,10 @@
                 <p class="fz-14 color-black-60 text-box line-16">
                     This is the first special menu. It is made of only 100 grams sugar, 20 percent with fresh avocado, 100 g boba, and our main recipe. It's Halal.
                 </p>
-                <p class="fz-18 line-12 text-left" style="float:left">
+                <p id="orders" class="fz-18 line-12 text-left" style="float:left">
                     Total orders : 125 cups
                 </p>
-                <p class="fz-18 color-black-90 line-12 text-right" style="float:right">
+                <p id="price" class="fz-18 color-black-90 line-12 text-right" style="float:right">
                     Rp. 15.000
                 </p>
             </div>
@@ -186,11 +187,11 @@
 
 <div class="height-min-auto height-half height-wrap bg-cover bg-fixed bg-image bg-image-home-4 device-min-height padding-md vertical-center-parent">
     <div class="container color-white padding-xl width-full text-center bg-black-90">
-        <p class="fz-30 margin-auto text-center fw-bold " style="margin-top: 30px">
+        <p class="fz-30 margin-auto text-center fw-bold" style="margin-top: 30px">
             Get In Touch With Us
         </p>
         <div class="padding-lg margin-auto width-max-992">
-            <div class="raw margin-sm ">
+            <div class="raw">
                 <p class="fz-20 text-center fw-bold line-12">
                     Social Media
                 </p>
@@ -215,6 +216,7 @@
                     <p href="#" class="line-20">Home</p>
                     <p href="#" class="line-20">About</p>
                     <p href="#" class="line-20">Contact</p>
+                    <p href="#" class="line-20"></p>
                 </div>
             </div>
             <div class="col-sm-3">
@@ -224,6 +226,7 @@
                     <p href="#" class="line-20">FAQ</p>
                     <p href="#" class="line-20">Privacy Policy</p>
                     <p href="#" class="line-20">Terms & Condition</p>
+                    <p href="#" class="line-20"></p>
                 </div>
             </div>
             <div class="col-sm-3">
@@ -233,12 +236,13 @@
                     <p href="#" class="line-20">Jakarta </p>
                     <p href="#" class="line-20">Surabaya </p>
                     <p href="#" class="line-20">Jogjakarta </p>
+                    <p href="#" class="line-20"></p>
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="color-white fw-bold fz-14">
-                    <p class="color-white-60 fw-normal text-center fz-16">Totoro Company&trade; 2020.</p>
-                    <p class="color-white-60 fw-normal text-center fz-12">All rights not reserved. This is not used for bussiness.</p>
+                    <p class="color-white-60 fw-normal text-center fz-16" style="margin-top: 40px">Totoro Company&trade; 2020.</p>
+                    <p class="color-white-60 fw-normal text-center fz-12">All rights reserved. This is not used for business.</p>
                 </div>
             </div>
 
