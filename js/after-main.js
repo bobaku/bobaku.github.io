@@ -1,6 +1,7 @@
 window.onscroll = function() {
-    addScrollToTop()
+    addScrollToTop();
 }
+
 function scrollToTop(t) {
     setTimeout(scrollToTop, t);
 }
@@ -9,9 +10,11 @@ function scrollToTop()
 {
     var position =
         document.body.scrollTop || document.documentElement.scrollTop;
+    var scrolltop = document.documentElement.scrollTop;
+
 
     if (position){
-        window.scrollBy(0, -Math.max(10, Math.floor(position / 1000)));
+        window.scrollBy(0, -Math.max(100000, Math.floor(position / 1000)));
         scrollAnimation = setTimeout("scrollToTop()", 1);
     } else clearTimeout(scrollAnimation);
 }
