@@ -1,0 +1,12 @@
+@media screen and (min-width: 992px) and (max-width: 1220px) {
+
+    .height-full.padding-lg {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .image-boba{
+        height: 200px;
+    }
+
+}

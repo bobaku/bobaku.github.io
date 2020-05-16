@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .height-wrap {
+        height: auto;
+    }
+
+    .height-full.padding-lg {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .height-wrap .vertical-center {
+        position: relative;
+        transform: none;
+        top: 0;
+        left: 0;
+
+    }
+
+    .col-sm-4 .image-boba{
+        height: 100px;
+    }
+}

@@ -1,0 +1,230 @@
+.padding-xl {
+    padding: 60px 30px;
+}
+.padding-lg {
+    padding: 40px 20px;
+}
+
+.padding-md {
+    padding: 30px 15px;
+}
+
+.padding-sm {
+    padding: 20px 10px;
+}
+
+.padding-xs{
+    padding: 10px 5px;
+
+}
+
+.margin-xl {
+    margin: 48px;
+}
+.margin-lg {
+    margin: 30px;
+}
+.margin-md {
+    margin: 24px;
+}
+.margin-sm {
+    margin: 18px;
+}
+.margin-xs {
+    margin: 12px;
+}
+.line-12 {
+    line-height: 1.2em;
+}
+.line-16 {
+    line-height: 1.6em;
+}
+.line-20 {
+    line-height: 2em;
+}
+.line-24 {
+    line-height: 2.4em;
+}
+.line-40 {
+    line-height: 4em;
+}
+
+.line-normal {
+    line-height: normal;
+}
+
+.fz-14 {
+    font-size: 14px;
+}
+.fz-16 {
+    font-size: 16px;
+}
+.fz-18 {
+    font-size: 18px;
+}
+.fz-20 {
+    font-size: 20px;
+}
+.fz-40 {
+    font-size: 40px;
+}
+.fz-60 {
+    font-size: 60px;
+}
+
+.box-shadow-10 {
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    z-index: 10;
+}
+.box-shadow-5 {
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    z-index: 5;
+}
+.box-shadow-20 {
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    z-index: 20;
+}
+.box-hover-shadow-5:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);;
+}
+.box-hover-shadow-10:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);;
+}
+.box-hover-shadow-20:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);;
+}
+.transition-5 {
+    transition: all 0.5s;
+}
+
+.color-white {
+    color: white;
+}
+.color-black-60 {
+    color: rgba(0,0,0,0.6);
+}
+.color-white-60 {
+    color: rgba(255,255,255,0.6);
+}
+.color-white-80 {
+    color: rgba(255,255,255, 0.8);
+}
+.fw-bold {
+    font-weight: bold;
+}
+.fw-thin {
+    font-weight: lighter;
+}
+.fw-normal {
+    font-weight: normal;
+}
+.bg-white {
+    background-color: white;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-black-30 {
+    background-color: rgba(0,0,0,0.3);
+}
+.bg-black-60 {
+    background-color: rgba(0,0,0,0.6);
+}
+.bg-black-90 {
+    background-color: rgba(0,0,0,0.9);
+}
+.bg-image-1 {
+    background-image: url("../assets/img/background_home.jpg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+.transformY-100 {
+    transform: translateY(-55px);
+    transition: all 0.5s;
+}
+.transformY-100-remove {
+    transition: all 0.5s;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+.bg-contain {
+    background-size: contain;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+.device-min-height {
+    min-height: calc(100vh + 120px);
+}
+.device-height {
+    height: calc(100vh + 64px);
+}
+.margin-auto {
+    margin: auto;
+}
+
+.width-min-full {
+    min-width: 750px;
+}
+.border-radius-10 {
+    border-radius: 10px;
+}
+.border-radius-20 {
+    border-radius: 20px;
+}
+.border-radius-30 {
+    border-radius: 30px;
+}
+.width-600 {
+    width: 600px;
+}
+.vertical-center-parent {
+    position: relative;
+}
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+.width-max-992 {
+    max-width: 992px;
+}
+.height-full {
+    height: 100%;
+}
+
+.inherit-height-and-width {
+    height: inherit;
+    width: inherit;
+}
+
+.image-boba {
+    width: 100%;
+    height: 300px;
+    background-image: url("../assets/img/boba.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#scroller {
+    min-width: 40px;
+    min-height: 40px;
+    display: block;
+    position: fixed;
+    bottom: -40px;
+    right: 15px;
+}
+
+.icon {
+    width: 50px;
+    margin: 30px;
+
+}
+

@@ -14,7 +14,7 @@ body {
 
 }
 .bg-2 {
-
+    background-color: #4cc0cc;
 }
 .bg-3 {
 
@@ -70,6 +70,18 @@ body {
     background-repeat: no-repeat;
     background-position-y: bottom;
 }
+.bg-image-home-2{
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.bg-image-home-2::after {
+    background-image: url("../assets/img/background_home_2.jpg");
+    opacity: 0.2;
+}
+
 .image-boba {
     background-image: url("../assets/img/boba.png");
     background-size: contain;
