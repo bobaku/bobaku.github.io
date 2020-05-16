@@ -1,20 +1,17 @@
 body {
-    font: 18px/1.5 'Source Sans Pro', sans-serif;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+
 }
 
-/*Atur Warna, Font, Besar kecil font disini*/
+/*@todo --> Colored Background dan Text Color umum di sini
+*/
 
-.bg-white{
-    background-color: white !important;
-}
-.bg-black{
-    background-color: black !important;
-}
 .bg-1 {
-
+    background-color: #34190b;
 }
+/*BACKGROUND FOR BUTTONS 1*/
 .bg-2 {
-    background-color: #4cc0cc;
+    background-color: #e4002b;
 }
 .bg-3 {
 
@@ -25,12 +22,7 @@ body {
 .bg-5 {
 
 }
-.color-white {
-    color: white !important;
-}
-.color-black {
-    color: black !important;
-}
+
 .color-1 {
 
 }
@@ -46,56 +38,73 @@ body {
 .color-5 {
 
 }
-.drop-shadow-nav {
-    box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
 
-}
-.drop-shadow-nav:not(hover) {
-    box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
-    transition: 0.5s;
-}
-.drop-shadow-nav:hover {
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
-    transition: 0.5s;
-}
-.glass-white {
-    background-color: rgba(255,255,255,0.2) !important;
-    filter: blur(2px) !important;
-}
 
-/*Background Images*/
-.bg-image-home {
+/*@todo --> Ganti image dengan cara menambahkan image ke ../assets/img/ dan mengganti background image di bawah ini
+  @todo --> Image class terdiri dari background image 1, 2, dan 3 di homepage serta menu image pada homepage dan menupage
+*/
+
+/*BACKGROUND*/
+.bg-image-home-1 {
     background-image: url("../assets/img/background_home.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: bottom;
 }
 .bg-image-home-2{
+    background-image: url("../assets/img/background_home.jpg");
+}
+.bg-image-home-3{
+    background-image: url("../assets/img/background_home.jpg");
+}
+.bg-image-home-4{
+    background-image: url("../assets/img/background_home.jpg");
+}
 
-    background-size: cover;
+/*IMAGE*/
+.image-boba-main {
+    background-image: url("../assets/img/boba.png");
+}
+.image-boba-menu-1 {
+    background-image: url("../assets/img/boba.png");
+}
+.image-boba-menu-2 {
+    background-image: url("../assets/img/boba.png");
+}
+.image-boba-menu-3 {
+    background-image: url("../assets/img/boba.png");
+}
+.image-boba-menu-4 {
+    background-image: url("../assets/img/boba.png");
+}
+
+/*ICONS*/
+.icon-home-1{
+    content:url("../assets/img/halal_logo.jpg");
+}
+.icon-home-2{
+    content:url("../assets/img/halal_logo.jpg");
+}
+.icon-home-3{
+    content:url("../assets/img/halal_logo.jpg");
+}
+.icon-socmed-1{
+    content:url("../assets/img/facebook_logo.png");
+}
+.icon-socmed-2{
+    content:url("../assets/img/instagram_logo.png");
+}
+.icon-socmed-3{
+    content:url("../assets/img/twitter_logo.png");
+}
+.icon-socmed-4{
+    content:url("../assets/img/youtube_logo.webp");
+}
+
+
+
+/*YANG LAINNYA*/
+
+/*BACKGROUND IMAGE NORMAL SETTINGS*/
+.bg-image {
     background-repeat: no-repeat;
     background-position-y: bottom;
-}
-
-.bg-image-home-2::after {
-    background-image: url("../assets/img/background_home_2.jpg");
-    opacity: 0.2;
-}
-
-.image-boba {
-    background-image: url("../assets/img/boba.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.bg-overlay {
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,0.6) 0%, rgba(71,71,71,0.6) 100%, rgba(128,132,133,0.6) 100%);
-}
-
-@media screen and (max-width: 768px){
-    .image-boba {
-        display: none;
-    }
-
+    background-position-x: center;
 }

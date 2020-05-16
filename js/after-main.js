@@ -27,3 +27,7 @@ function addScrollToTop() {
 
     }
 }
+
+function activateToolTip(){
+        $('[data-toggle="tooltip"]').tooltip();
+}

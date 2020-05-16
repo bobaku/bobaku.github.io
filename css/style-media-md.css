@@ -1,8 +1,18 @@
 @media screen and (min-width: 992px) and (max-width: 1220px) {
 
     .height-full.padding-lg {
-        margin: 0 !important;
+        margin: auto !important;
         padding: 0 !important;
+    }
+
+    .height-wrap {
+        height: auto;
+    }
+    .height-half {
+        min-height: 400px;
+    }
+    .height-min-auto {
+        min-height: auto;
     }
 
     .image-boba{

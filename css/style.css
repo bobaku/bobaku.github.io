@@ -1,6 +1,14 @@
+body {
+    overflow-y: scroll;
+}
+.padding-top-xl {
+    padding: 60px;
+}
+
 .padding-xl {
     padding: 60px 30px;
 }
+
 .padding-lg {
     padding: 40px 20px;
 }
@@ -15,7 +23,26 @@
 
 .padding-xs{
     padding: 10px 5px;
+}
 
+.padding-xl-reverse {
+    padding: 30px 60px;
+}
+
+.padding-lg-reverse {
+    padding: 20px 40px;
+}
+
+.padding-md-reverse {
+    padding: 15px 30px;
+}
+
+.padding-sm-reverse {
+    padding: 10px 20px;
+}
+
+.padding-xs-reverse {
+    padding: 5px 10px;
 }
 
 .margin-xl {
@@ -65,6 +92,9 @@
 .fz-20 {
     font-size: 20px;
 }
+.fz-30 {
+    font-size: 30px;
+}
 .fz-40 {
     font-size: 40px;
 }
@@ -81,17 +111,21 @@
     z-index: 5;
 }
 .box-shadow-20 {
-    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.6);
     z-index: 20;
 }
 .box-hover-shadow-5:hover {
-    box-shadow: 0 0 5px rgba(0,0,0,0.6);;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.6);
+
 }
 .box-hover-shadow-10:hover {
-    box-shadow: 0 0 10px rgba(0,0,0,0.6);;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+
+
 }
 .box-hover-shadow-20:hover {
-    box-shadow: 0 0 20px rgba(0,0,0,0.6);;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.6);
+
 }
 .transition-5 {
     transition: all 0.5s;
@@ -133,14 +167,9 @@
 .bg-black-90 {
     background-color: rgba(0,0,0,0.9);
 }
-.bg-image-1 {
-    background-image: url("../assets/img/background_home.jpg");
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-    background-position-x: center;
-}
+
 .transformY-100 {
-    transform: translateY(-55px);
+    transform: translateY(-100px);
     transition: all 0.5s;
 }
 .transformY-100-remove {
@@ -208,7 +237,6 @@
 .image-boba {
     width: 100%;
     height: 300px;
-    background-image: url("../assets/img/boba.png");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -218,13 +246,101 @@
     min-height: 40px;
     display: block;
     position: fixed;
-    bottom: -40px;
+    bottom: -80px;
     right: 15px;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+#scroller:hover {
+    cursor: pointer;
 }
 
 .icon {
     width: 50px;
-    margin: 30px;
+    margin: 20px;
+}
+
+.icon-sm {
+    width: 50px;
+    margin: 5px;
+}
+
+.glyphicon {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-weight: normal;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.panel {
+    border: 1px solid rgba(0,0,0,0.6);
+}
+
+.height-half {
+    min-height: 400px;
+}
+
+.btn {
+    border: none;
+}
+.btn:hover {
+    transform: translateY(-1px);
+}
+.btn-danger {
+    border-radius: 3px;
+}
+.bg-2:hover{
+    background-color: #e4002b;
+}
+
+.border-black-30-1{
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+.border-black-60-1{
+    border: 1px solid rgba(0,0,0,0.6);
+}
+
+.border-black-90-1{
+    border: 1px solid rgba(0,0,0,0.9);
+}
+
+.width-max-size-500{
+    max-width: 500px;
+}
+
+.transformY-5-hover:hover{
+    transform: translateY(-5px);
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.height-auto {
+    height: auto;
+
+}
+
+ul li{
+    list-style: none;
+}
+
+@media screen and (min-width: 1500px) {
+    .device-min-height{
+        min-height: 700px
+    }
+    .device-height {
+        height: auto;
+    }
+    .vertical-center {
+        position: relative;
+        transform: none;
+        top: 0;
+        left: 0;
+
+    }
 
 }
 

@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="css/style-media-xs.css">
     <link rel="stylesheet" href="css/style-media-sm.css">
     <link rel="stylesheet" href="css/style-media-md.css">
+    <!-- LOCAL DYNAMIC RESOURCS -->
+    <link rel="stylesheet" href="css/res.css">
+
 
     <style>
-        body {
-            font-family: 'Segoe UI', 'Roboto', sans-serif;
-            overflow-y: scroll;
-        }
+
         .box {
             border: 1px solid #000000dd;
         }
@@ -36,11 +36,11 @@
     </script>
 </head>
 <body>
-    <div id="scroller" class="box-shadow-10 bg-white border-radius-10" onclick="scrollToTop();return false;">
-        <span class="glyphicon glyphicon-arrow"></span>
+    <div id="scroller" data-toggle="tooltip" data-placement="top" title="Go To Top" class="box-hover-shadow-10 box-shadow-5 bg-white border-radius-10" onclick="scrollToTop();return false;">
+        <span class="glyphicon glyphicon-arrow-up" ></span>
     </div>
-    <div class="padding-768-0 bg-image-1 bg-cover device-height device-width vertical-center-parent">
-        <div class=" container padding-lg line-16 inherit-height-and-width">
+    <div class="padding-768-0 bg-image-home-1 bg-image bg-cover device-height device-width vertical-center-parent">
+        <div class=" container padding-lg line-16">
             <div class="col-sm-1"></div>
             <div class="width-768-full padding-lg col-sm-10 box-hover-shadow-20 transition-5 bg-black-90 padding-xl vertical-center">
                 <p class="fz-14 text-center color-white-60 fw-normal">
@@ -66,7 +66,7 @@
             <div class="col-md-2">
             </div>
             <div class="width-max-992 col-md-8 col-xs-12 text-center padding-xl vertical-center text-center">
-                <div class="image-boba bg-contain"></div>
+                <div class="image-boba image-boba-main bg-contain"></div>
                 <p class="fz-16 fw-thin margin-sm">
                     ABOUT TOTORO BOBA
                 </p>
@@ -75,18 +75,20 @@
                     We have made royal boba drinks since this year (2020). We have announced that our products are healthy and eco-friendly. We also choose the best eco plastic glasses. All the recipes are designed by Us.
                 </p>
                 <div class="margin-auto">
-                    <img class="img img-rounded icon" src="assets/img/halal_logo.jpg">
+                    <img class="img img-rounded icon icon-home-1" >
+                    <img class="img img-rounded icon icon-home-2" >
+                    <img class="img img-rounded icon icon-home-3" >
                 </div>
             </div>
             <div class="col-sm-2"></div>
         </div>
     </div>
 
-    <div class="height-wrap bg-fixed bg-image-1 bg-cover device-height vertical-center-parent">
+    <div class="height-wrap bg-fixed bg-image bg-image-home-2 bg-cover device-height vertical-center-parent">
         <div class="container line-16 text-box width-768-full padding-768-0">
-            <div class="padding-lg col-sm-4 transition-5 height-full">
-                <div class="box-hover-shadow-20 bg-black-90 margin-sm padding-xl">
-                    <div class="bg-contain image-boba"></div>
+            <div class="padding-lg col-sm-4 height-full">
+                <div class="transformY-5-hover transition-5  box-hover-shadow-20 bg-black-90 margin-sm padding-xl">
+                    <div class="bg-contain image-boba-menu-1 image-boba"></div>
                     <p class="fz-20 color-white text-center fw-bold line-20 margin-md">
                         Menu Name
                     </p>
@@ -95,9 +97,9 @@
                     </p>
                 </div>
             </div>
-            <div class="padding-lg col-sm-4 transition-5 height-full">
-                <div class="box-hover-shadow-20 bg-black-90 margin-sm padding-xl">
-                    <div class="bg-contain image-boba"></div>
+            <div class="padding-lg col-sm-4 height-full">
+                <div class="transformY-5-hover transition-5 box-hover-shadow-20 bg-black-90 margin-sm padding-xl">
+                    <div class="bg-contain image-boba-menu-2 image-boba"></div>
                     <p class="fz-20 color-white text-center fw-bold line-20 margin-md">
                         Special Menu
                     </p>
@@ -106,9 +108,9 @@
                     </p>
                 </div>
             </div>
-            <div class="padding-lg col-sm-4 transition-5 height-full">
-                <div class="box-hover-shadow-20 bg-black-90 margin-sm padding-xl">
-                    <div class="bg-contain image-boba"></div>
+            <div class="padding-lg col-sm-4 height-full">
+                <div class="transformY-5-hover transition-5 box-hover-shadow-20 bg-black-90 margin-sm padding-xl">
+                    <div class="bg-contain image-boba-menu-3 image-boba"></div>
                     <p class="fz-20 text-center color-white fw-bold line-20 margin-md">
                         Menu Name
                     </p>
@@ -120,7 +122,140 @@
         </div>
     </div>
 
+    <div class="height-wrap bg-white device-min-height vertical-center-parent">
+        <div class="container padding-md">
+            <p class="fz-30 margin-auto text-center fw-bold " style="margin-top: 30px">
+                Today's Selection
+            </p>
+            <div class="padding-lg margin-auto width-max-size-500 height-full">
+                <div class="transition-5 transformY-5-hover box-hover-shadow-20 bg-white margin-sm padding-xl border-black-30-1">
+                    <div class="bg-contain image-boba-menu-1 image-boba"></div>
+                    <p class="fz-20 text-center fw-bold line-20 margin-md">
+                        Menu Name
+                    </p>
+                    <p class="fz-14 color-black-60 text-box line-16">
+                        This is the first special menu. It is made of only 100 grams sugar, 20 percent with fresh avocado, 100 g boba, and our main recipe. It's Halal.
+                    </p>
+                    <p class="fz-18 line-12 text-left" style="float:left">
+                        Total orders : 125 cups
+                    </p>
+                    <p class="fz-18 color-black-90 line-12 text-right" style="float:right">
+                        Rp. 15.000
+                    </p>
+                </div>
+                <p class="text-center margin-sm center">
+                    <a class="transition-5 width-full margin-0 width-max-size-500 btn bg-2 btn-danger padding-sm-reverse btn-lg fz-16 fw-bold">See Our Menus</a>
+                </p>
+            </div>
 
+
+        </div>
+    </div>
+
+    <div class="height-wrap bg-cover bg-fixed bg-image bg-image-home-3 height-half padding-md vertical-center-parent">
+        <div class="container padding-xl width-full vertical-center text-center bg-black-90">
+            <p class="fz-40 color-white fw-bold text-center" style="margin-bottom: 20px">
+                Promos And News
+            </p>
+            <p class="fz-18 color-white text-center fw-thin">
+                See our news and promos of this week! Get to know updated announcements!
+            </p>
+            <p class="margin-md ">
+                <a class="btn bg-2 btn-danger padding-sm-reverse btn-lg fz-16 fw-bold">See Link</a>
+            </p>
+
+
+        </div>
+    </div>
+
+    <div class=" height-wrap bg-white height-half  vertical-center-parent">
+        <div class="container padding-md ">
+            <p class="fz-30 margin-auto text-center fw-bold line-20" style="margin-top: 30px">
+                Locations
+            </p>
+            <p class="fz-16 margin-sm color-black-60 line-16 text-center ">
+                We have more than 10 franchises and We are ready to serve you and give Our best!
+            </p>
+            <p class="margin-md text-center">
+                <a class="btn bg-2 btn-info padding-sm-reverse btn-lg fz-16 fw-bold">See Locations</a>
+            </p>
+
+
+        </div>
+    </div>
+
+    <div class="height-min-auto height-wrap bg-cover bg-fixed bg-image bg-image-home-4 device-min-height padding-md vertical-center-parent">
+        <div class="container color-white padding-xl width-full text-center bg-black-90">
+                <p class="fz-30 margin-auto text-center fw-bold " style="margin-top: 30px">
+                    Get In Touch With Us
+                </p>
+                <div class="padding-lg margin-auto width-max-992">
+                    <div class="raw margin-sm ">
+                            <p class="fz-20 text-center fw-bold line-12">
+                                Social Media
+                            </p>
+                            <div class="margin-auto text-center">
+                                <a href="https://facebook.com"><img class="margin-sm img img-circle icon-sm icon-socmed-1"></a>
+                                <a href="https://instagram.com"><img class="margin-sm img img-circle icon-sm icon-socmed-2"></a>
+                                <a href="https://twitter.com"><img class="margin-sm img img-circle icon-sm icon-socmed-3"></a>
+                                <a href="https://youtube.com"><img class="margin-sm img img-circle icon-sm icon-socmed-4"></a>
+                            </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+    <footer class="bg-black-90 height-wrap">
+        <div class="container padding-top-xl">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="color-white fw-bold fz-14">
+                        <p class="color-white-60 fw-normal fz-18">Resources</p>
+                        <p href="#" class="line-20">Home</p>
+                        <p href="#" class="line-20">About</p>
+                        <p href="#" class="line-20">Contact</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="color-white fw-bold fz-14">
+                        <p class="color-white-60 fw-normal fz-18">Product</p>
+                        <p href="#" class="line-20">Help</p>
+                        <p href="#" class="line-20">FAQ</p>
+                        <p href="#" class="line-20">Privacy Policy</p>
+                        <p href="#" class="line-20">Terms & Condition</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="color-white fw-bold fz-14">
+                        <p class="color-white-60 fw-normal fz-18">Locations</p>
+                        <p href="#" class="line-20">Malang </p>
+                        <p href="#" class="line-20">Jakarta </p>
+                        <p href="#" class="line-20">Surabaya </p>
+                        <p href="#" class="line-20">Jogjakarta </p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="color-white fw-bold fz-14">
+                        <p class="color-white-60 fw-normal text-center fz-16">Totoro Company&trade; 2020.</p>
+                        <p class="color-white-60 fw-normal text-center fz-12">All rights not reserved. This is not used for bussiness.</p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script>
+        $(document).ready(function(){
+            activateToolTip();
+        });
+    </script>
 
 
 </body>

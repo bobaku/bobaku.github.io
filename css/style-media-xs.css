@@ -21,7 +21,7 @@
         padding: 0;
     }
 
-    .width-768-full{
+    .width-76-full{
         width: 100%;
     }
 
@@ -30,7 +30,7 @@
     }
 
     .height-full.padding-lg {
-        margin: 0 !important;
+        margin: auto !important;
         padding: 0 !important;
     }
 
@@ -40,6 +40,13 @@
         top: 0;
         left: 0;
 
+    }
+    .height-min-auto {
+        min-height: auto;
+    }
+
+    .width-full {
+        width: 100%;
     }
 
 

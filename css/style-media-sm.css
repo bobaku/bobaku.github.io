@@ -4,8 +4,12 @@
     }
 
     .height-full.padding-lg {
-        margin: 0 !important;
+        margin: auto !important;
         padding: 0 !important;
+    }
+
+    .height-half {
+        min-height: 300px;
     }
 
     .height-wrap .vertical-center {
@@ -16,7 +20,15 @@
 
     }
 
+    .height-min-auto {
+        min-height: auto;
+    }
+
     .col-sm-4 .image-boba{
         height: 100px;
+    }
+
+    .width-full {
+        width: 100%;
     }
 }
