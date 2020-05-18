@@ -347,3 +347,78 @@ ul li{
 #home-1 .container{
     padding: 0 !important;
 }
+
+/*BOOTSTRAP NAVBAR*/
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: rgb(42, 13, 0) !important;
+    color: white !important;
+}
+
+@media screen and (max-width: 992px){
+
+    .navbar {
+        letter-spacing: 2px;
+    }
+}
+
+.padding-top-nav {
+    padding-top: 64px;
+}
+
+.border-none {
+    border: none;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.share-feature {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+

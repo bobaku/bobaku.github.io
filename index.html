@@ -11,34 +11,52 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- LOCAL LINK -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style-media-xs.css">
-    <link rel="stylesheet" href="css/style-media-sm.css">
-    <link rel="stylesheet" href="css/style-media-md.css">
+    <link rel="stylesheet" href="css/common/style.css">
+    <link rel="stylesheet" href="css/responsive/style-media-xs.css">
+    <link rel="stylesheet" href="css/responsive/style-media-sm.css">
+    <link rel="stylesheet" href="css/responsive/style-media-md.css">
     <!-- LOCAL DYNAMIC RESOURCS -->
     <link rel="stylesheet" href="css/res.css">
 
 
-    <style>
-
-        .box {
-            border: 1px solid #000000dd;
-        }
-        .text-box {
-
-            text-align: justify;
-        }
-        .color-low-opacity {
-            color: #00000066;
-        }
-    </style>
     <script src="js/after-main.js" type="text/javascript">
     </script>
 </head>
-<body>
+<body id="myPage" data-spy="scroll" data-target="#scroller" data-offset="50">
 
-<div id="scroller" data-toggle="tooltip" data-placement="top" title="Go To Top" class="box-hover-shadow-10 box-shadow-5 bg-white border-radius-10" onclick="scrollToTop();">
-    <span class="glyphicon glyphicon-arrow-up" ></span>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img class="image-logo-typo-white" style="max-height: 100%;"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="common/menus.html">MENUS</a></li>
+                <li><a href="common/promos.html">PROMOS&NEWS</a></li>
+                <li><a href="common/location.html">LOCATION</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="common/about.html">About</a></li>
+                        <li><a href="common/contact.html">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div id="scroller" data-toggle="tooltip" data-placement="top" title="Go To Top" class="box-hover-shadow-10 box-shadow-5 bg-white border-radius-10" onclick="">
+    <a href="#home-1"><span class="glyphicon glyphicon-arrow-up" ></span></a>
 </div>
 <div id="home-1" class="padding-768-0 bg-image-home-1 bg-image bg-cover device-height device-width vertical-center-parent">
     <div class=" container padding-lg line-16">
@@ -86,7 +104,7 @@
 </div>
 
 <div class="height-wrap bg-fixed bg-image bg-image-home-2 bg-cover device-height vertical-center-parent">
-    <div class="container line-16 text-box width-768-full padding-768-0">
+    <div class="container line-16 text-justify width-768-full padding-768-0">
         <div class="padding-lg col-sm-4 height-full">
             <div class="transformY-5-hover transition-5  box-hover-shadow-20 bg-black-90 margin-sm padding-xl">
                 <div class="bg-contain image-boba-menu-1 image-boba"></div>
@@ -134,7 +152,7 @@
                 <p class="fz-20 text-center fw-bold line-20 margin-md">
                     Menu Name
                 </p>
-                <p class="fz-14 color-black-60 text-box line-16">
+                <p class="fz-14 color-black-60 text-justify line-16">
                     This is the first special menu. It is made of only 100 grams sugar, 20 percent with fresh avocado, 100 g boba, and our main recipe. It's Halal.
                 </p>
                 <p id="orders" class="fz-18 line-12 text-left" style="float:left">
@@ -178,7 +196,7 @@
             We have more than 10 franchises and We are ready to serve you and give Our best!
         </p>
         <p class="margin-md text-center">
-            <a class="btn bg-2 btn-info padding-sm-reverse btn-lg fz-16 fw-bold">See Locations</a>
+            <a class="btn bg-2 btn-danger padding-sm-reverse btn-lg fz-16 fw-bold">See Locations</a>
         </p>
 
 
@@ -210,7 +228,7 @@
 <footer class="bg-black-90 height-wrap">
     <div class="container padding-top-xl">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-md-3 col-sm-4">
                 <div class="color-white fw-bold fz-14">
                     <p class="color-white-60 fw-normal fz-18">Resources</p>
                     <p href="#" class="line-20">Home</p>
@@ -219,17 +237,7 @@
                     <p href="#" class="line-20"></p>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="color-white fw-bold fz-14">
-                    <p class="color-white-60 fw-normal fz-18">Product</p>
-                    <p href="#" class="line-20">Help</p>
-                    <p href="#" class="line-20">FAQ</p>
-                    <p href="#" class="line-20">Privacy Policy</p>
-                    <p href="#" class="line-20">Terms & Condition</p>
-                    <p href="#" class="line-20"></p>
-                </div>
-            </div>
-            <div class="col-sm-3">
+            <div class="col-md-3 col-sm-4">
                 <div class="color-white fw-bold fz-14">
                     <p class="color-white-60 fw-normal fz-18">Locations</p>
                     <p href="#" class="line-20">Malang </p>
@@ -239,26 +247,29 @@
                     <p href="#" class="line-20"></p>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-md-3 col-sm-4">
+                <div class="color-white fw-bold fz-14">
+                    <p class="color-white-60 fw-normal fz-18">Product</p>
+                    <p href="#" class="line-20">Help</p>
+                    <p href="#" class="line-20">FAQ</p>
+                    <p href="#" class="line-20">Privacy Policy</p>
+                    <p href="#" class="line-20">Terms & Condition</p>
+                    <p href="#" class="line-20"></p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 text-center">
+                <img class="text-center img bg-contain image-logo-white" style="max-width: 100px;">
                 <div class="color-white fw-bold fz-14">
                     <p class="color-white-60 fw-normal text-center fz-16" style="margin-top: 40px">Totoro Company&trade; 2020.</p>
                     <p class="color-white-60 fw-normal text-center fz-12">All rights reserved. This is not used for business.</p>
                 </div>
             </div>
-
-
-
-
         </div>
     </div>
 
 </footer>
 
-
-<script>
-    $(document).ready(function(){
-        activateToolTip();
-    });
+<script src="js/main.js" type="text/javascript">
 </script>
 
 

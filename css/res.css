@@ -46,56 +46,95 @@ body {
 
 /*BACKGROUND*/
 .bg-image-home-1 {
-    background-image: url("../assets/img/background_home.jpg");
+    background-image: url("../assets/img/background images/background_home.jpg");
 }
 .bg-image-home-2{
-    background-image: url("../assets/img/background_home.jpg");
+    background-image: url("../assets/img/background images/background_home_2.jpg");
 }
 .bg-image-home-3{
-    background-image: url("../assets/img/background_home.jpg");
+    background-image: url("../assets/img/background images/background_home_3.jpg");
 }
 .bg-image-home-4{
-    background-image: url("../assets/img/background_home.jpg");
+    background-image: url("../assets/img/background images/background_home_4.jpg");
 }
 
 /*IMAGE*/
 .image-boba-main {
-    background-image: url("../assets/img/boba.png");
+    background-image: url("../assets/img/menu images/boba.png");
 }
 .image-boba-menu-1 {
-    background-image: url("../assets/img/boba.png");
+    background-image: url("../assets/img/menu images/boba-1.png");
 }
 .image-boba-menu-2 {
-    background-image: url("../assets/img/boba.png");
+    background-image: url("../assets/img/menu images/boba-2.png");
 }
 .image-boba-menu-3 {
-    background-image: url("../assets/img/boba.png");
+    background-image: url("../assets/img/menu images/boba-3.png");
 }
 .image-boba-menu-4 {
-    background-image: url("../assets/img/boba.png");
+    background-image: url("../assets/img/menu images/boba-4.png");
+}
+.image-boba-menu-5 {
+    background-image: url("../assets/img/menu images/boba-5.png");
+}
+.image-boba-menu-6 {
+    background-image: url("../assets/img/menu images/boba-6.png");
+}
+.image-boba-menu-7 {
+    background-image: url("../assets/img/menu images/boba-7.png");
+}
+.image-boba-menu-8 {
+    background-image: url("../assets/img/menu images/boba-8.png");
+}
+.image-boba-menu-9 {
+    background-image: url("../assets/img/menu images/boba-9.png");
+}
+.image-boba-menu-10 {
+    background-image: url("../assets/img/menu images/boba-10.png");
+}
+
+/*LOGO*/
+
+.image-logo-white {
+    content: url("../assets/img/web logo/logo-white.png");
+}
+.image-logo-black {
+    content: url("../assets/img/web logo/logo-black.png");
+}
+.image-logo-circled-white {
+    content: url("../assets/img/web logo/logo-circled-white.png");
+}
+.image-logo-circled-black {
+    content: url("../assets/img/web logo/logo-circled-black.png");
+}
+.image-logo-typo-white {
+    content: url("../assets/img/web logo/logo-typo-white.png");
+}
+.image-logo-typo-black {
+    content: url("../assets/img/web logo/logo-typo-black.png");
 }
 
 /*ICONS*/
 .icon-home-1{
-    content:url("../assets/img/halal_logo.jpg");
+    content:url("../assets/img/sertified logos/logo-1.jpg");
 }
 .icon-home-2{
-    content:url("../assets/img/halal_logo.jpg");
+    content:url("../assets/img/sertified logos/logo-2.jpg");
 }
 .icon-home-3{
-    content:url("../assets/img/halal_logo.jpg");
+    content:url("../assets/img/sertified logos/logo-3.jpg");
 }
 .icon-socmed-1{
-    content:url("../assets/img/facebook_logo.png");
+    content:url("../assets/img/social media/facebook_logo.png");
 }
 .icon-socmed-2{
-    content:url("../assets/img/instagram_logo.png");
+    content:url("../assets/img/social media/instagram_logo.png");
 }
 .icon-socmed-3{
-    content:url("../assets/img/twitter_logo.png");
+    content:url("../assets/img/social media/twitter_logo.png");
 }
 .icon-socmed-4{
-    content:url("../assets/img/youtube_logo.webp");
+    content:url("../assets/img/social media/youtube_logo.webp");
 }
 
 
