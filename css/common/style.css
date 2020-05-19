@@ -431,3 +431,7 @@ div #title {
     padding-top: 20px;
     border-top: 1px solid rgba(0,0,0,0.3);
 }
+
+#promos #top {
+    height: auto !important;
+}
