@@ -74,6 +74,10 @@
         font-size: calc(3vw + 17px) !important;
         letter-spacing: 2vw;
     }
+    #feeds .col-sm-4, #feeds .col-sm-12 {
+        width: 100vw;
+        padding: 0 !important;
+    }
 
 }
 
