@@ -19,4 +19,9 @@
         height: 200px;
     }
 
+    div #title {
+        font-size: calc(3vw + 17px) !important;
+        letter-spacing: 2vw;
+    }
+
 }

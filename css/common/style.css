@@ -422,3 +422,12 @@ ul li{
     right: 0;
 }
 
+div #title {
+    font-size: calc(3vw + 17px) !important;
+    letter-spacing: 2vw;
+}
+.box {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
